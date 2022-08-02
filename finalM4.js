@@ -1,0 +1,25 @@
+const preguntas = [
+    "Condiciones de Cauchy-Riemmann",
+    "Fórmula de Cauchy de la derivada",
+    "Transformada de Fourier",
+    "Teorema de los residuos",
+    "Series de Fourier",
+    "Fórmula de Cauchy",
+    "Clasificación de singularidades",
+    "Transformada de Laplace",
+    "Desarrollo de Laurent",
+    "Desarrollo de Taylor"
+]
+
+const pregunta = document.querySelector('.pregunta');
+const boton = document.querySelector('.btn')
+console.log(boton.className)
+document.addEventListener('click', (e) =>{
+    console.log(e.target.className)
+    if(e.target.className == boton.className){
+        e.preventDefault
+        const item = preguntas[Math.floor(Math.random()*preguntas.length)]
+        console.log(item)
+        pregunta.innerText = item
+    }
+})
