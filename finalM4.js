@@ -8,7 +8,10 @@ const preguntas = [
     "Clasificación de singularidades",
     "Transformada de Laplace",
     "Desarrollo de Laurent",
-    "Desarrollo de Taylor"
+    "Desarrollo de Taylor",
+    "Probar que son equivalentes la siguientes afirmaciones: \n 1)f es derivable en a \n 2) u y v son diferenciables en a y cumplen las condiciones de Cauchy-Riemann",
+    "Probar que si f= u+iv es holomorfa en A siendo u y v C2, entonces u y v son armónicas en A",
+    "si U es armónica en un abierto D, existe una funcion v armónica conjugada tal que f=u+iv sea holomorfa en D?"
 ]
 
 const pregunta = document.querySelector('.pregunta');
