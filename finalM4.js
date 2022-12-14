@@ -1,7 +1,7 @@
 const preguntas = [
     "Deducir los teoremas de Bernoulli",
     "Deducir el teorema del momento",
-    "Deducir el teorema de Kelvin. Particularizar en flujos barotrópicos y baroclínicos. (ejemplo de la playa de dia y de noche)"
+    "Deducir el teorema de Kelvin"
 ]
 
 const pregunta = document.querySelector('.pregunta');
