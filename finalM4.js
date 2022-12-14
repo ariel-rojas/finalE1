@@ -1,7 +1,8 @@
 const preguntas = [
-    "Deducir los teoremas de Bernoulli",
-    "Deducir el teorema del momento",
-    "Deducir el teorema de Kelvin"
+    "Teoremas de Bernoulli",
+    "Teorema del momento",
+    "Teorema de Kelvin",
+    "Teorema de Helmholtz
 ]
 
 const pregunta = document.querySelector('.pregunta');
