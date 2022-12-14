@@ -2,7 +2,7 @@ const preguntas = [
     "Teoremas de Bernoulli",
     "Teorema del momento",
     "Teorema de Kelvin",
-    "Teorema de Helmholtz,
+    "Teorema de Helmholtz",
     "Modelo del tornado"
 ]
 
