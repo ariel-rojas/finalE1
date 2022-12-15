@@ -1,9 +1,18 @@
 const preguntas = [
+    "Ecuación de Euler",
+    "Conservación de la masa",
     "Teoremas de Bernoulli",
     "Teorema del momento",
+    "Tensor de velocidades",
     "Teorema de Kelvin",
     "Teorema de Helmholtz",
-    "Modelo del tornado"
+    "Modelo del tornado",
+    "Teorema del círculo",
+    "Teorema de Blasius",
+    "Fuerza de Magnus",
+    "Transformación conforme. Condición de Kutta",
+    "Teorema del círculo",
+    "Flujos potenciales"
 ]
 
 const pregunta = document.querySelector('.pregunta');
