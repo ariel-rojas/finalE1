@@ -1,5 +1,5 @@
 const preguntas = [
-    "Derivada Material",
+    "Tipos de descripción de un fluido. Derivada Material. Tipos de visualización.",
     "Ecuación de Euler",
     "Conservación de la masa",
     "Teoremas de Bernoulli",
