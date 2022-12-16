@@ -12,7 +12,6 @@ const preguntas = [
     "Teorema de Blasius",
     "Fuerza de Magnus",
     "Transformación conforme. Condición de Kutta",
-    "Teorema del círculo",
     "Flujos potenciales",
     'Ecuación de Navier Stokes',
     'Balance del momento viscoso',
