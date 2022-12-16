@@ -1,4 +1,5 @@
 const preguntas = [
+    "Derivada Material",
     "Ecuación de Euler",
     "Conservación de la masa",
     "Teoremas de Bernoulli",
@@ -12,7 +13,14 @@ const preguntas = [
     "Fuerza de Magnus",
     "Transformación conforme. Condición de Kutta",
     "Teorema del círculo",
-    "Flujos potenciales"
+    "Flujos potenciales",
+    'Ecuación de Navier Stokes',
+    'Balance del momento viscoso',
+    'Disipación de Energía',
+    'Flujo de Poiseuille',
+    'Análisis dimensional. Ejemplos',
+    'Fuerza de arrastre sobre una esfera',
+    'Problema con autosimilaridad'
 ]
 
 const pregunta = document.querySelector('.pregunta');
