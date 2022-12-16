@@ -19,7 +19,8 @@ const preguntas = [
     'Flujo de Poiseuille',
     'Análisis dimensional. Ejemplos',
     'Fuerza de arrastre sobre una esfera',
-    'Problema con autosimilaridad'
+    'Problema con autosimilaridad',
+    'Inestabilidad en flujos planos. Ecuación de Rayleigh. Criterio de Rayleigh.'
 ]
 
 const pregunta = document.querySelector('.pregunta');
