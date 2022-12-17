@@ -13,7 +13,7 @@ const preguntas = [
     "Fuerza de Magnus",
     "Transformación conforme. Condición de Kutta",
     "Flujos potenciales",
-    'Ecuación de Navier Stokes',
+    'Ecuación de Navier Stokes. Flujos newtonianos y no newtonianos',
     'Balance del momento viscoso',
     'Disipación de Energía',
     'Flujo de Poiseuille',
@@ -21,6 +21,10 @@ const preguntas = [
     'Fuerza de arrastre sobre una esfera',
     'Problema con autosimilaridad',
     'Inestabilidad en flujos planos. Ecuación de Rayleigh. Criterio de Rayleigh.'
+    'Inestabilidad de Kelvin-Helmholtz',
+    'Inestabilidad de Rayleigh-Taylor',
+    'Ondas de Gravedad. Caso profundidad infinita y finita',
+    'Flujos Compresibles. Método de las características. Relación de Rankine'
 ]
 
 const pregunta = document.querySelector('.pregunta');
