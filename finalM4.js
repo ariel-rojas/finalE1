@@ -1,5 +1,6 @@
 const preguntas = [
-    "Tipos de descripción de un fluido. Derivada Material. Tipos de visualización.",
+    "a) Expresar la formula del método de Euler y dar la definición de error de truncado para ese método. ¿Qué es el error global? Dar una idea esquemática de cómo se acota ese error. ¿De qué depende ese error? 
+    b) Como se define un método multipasos. En ese caso, ¿Como se define convergencia del método?",
     "Ecuación de Euler.",
     "Conservación de la masa.",
     "Teoremas de Bernoulli.",
