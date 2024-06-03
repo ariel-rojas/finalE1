@@ -1,31 +1,15 @@
 const preguntas = [
     "a) Expresar la formula del método de Euler y dar la definición de error de truncado para ese método. ¿Qué es el error global? Dar una idea esquemática de cómo se acota ese error. ¿De qué depende ese error? 
     b) Como se define un método multipasos. En ese caso, ¿Como se define convergencia del método?",
-    "Ecuación de Euler.",
-    "Conservación de la masa.",
-    "Teoremas de Bernoulli.",
-    "Teorema del momento.",
-    "Tensor de velocidades.",
-    "Teorema de Kelvin.",
-    "Teorema de Helmholtz.",
-    "Modelo del tornado.",
-    "Teorema del círculo.",
-    "Teorema de Blasius.",
-    "Fuerza de Magnus.",
-    "Transformación conforme. Condición de Kutta.",
-    "Flujos potenciales.",
-    'Ecuación de Navier Stokes. Flujos newtonianos y no newtonianos.',
-    'Balance del momento viscoso.',
-    'Disipación de Energía.',
-    'Flujo de Poiseuille.',
-    'Análisis dimensional. Ejemplos.',
-    'Fuerza de arrastre sobre una esfera.',
-    'Problema con autosimilaridad.',
-    'Inestabilidad en flujos planos. Ecuación de Rayleigh. Criterio de Rayleigh.',
-    'Inestabilidad de Kelvin-Helmholtz.',
-    'Inestabilidad de Rayleigh-Taylor.',
-    'Ondas de Gravedad. Caso profundidad infinita y finita.',
-    'Flujos Compresibles. Método de las características. Relación de Rankine.'
+    "Expresar el método de Euler y definir el error de truncado del método. Enunciar y demostrar la expresión de error global del método de Euler.",
+    "Dada f: R → R y el problema de valores iniciales
+x′(t) = f (x(t)) t ∈ [0, 1]
+x (0) = 1
+donde f es Lipschitz. Dado t_i = i*h 0 ≤ i ≤ N, h = 1/N, considere el siguiente método de un paso:
+x_(i+1) = x_i + h*ϕ (xi, h) x_0 = 1
+con ϕ (x_i, h) = 3/5*f (x) + 2/5*f (x + 5/4*h*f (x))
+"
+    
 ]
 
 const pregunta = document.querySelector('.pregunta');
